@@ -1,4 +1,3 @@
-package ru.yandex.praktikum;// импортируем RestAssured
 import io.restassured.RestAssured;
 // импортируем Before
 import io.restassured.response.Response;

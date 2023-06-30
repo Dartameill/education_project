@@ -1,5 +1,3 @@
-package ru.yandex.praktikum;
-
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
 import io.qameta.allure.junit4.DisplayName;
@@ -10,7 +8,7 @@ import org.junit.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class Mesto1Test {
+public class TestMesto1 {
 
     String bearerToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDIxOGRkMjI0OGQ0NTAwMzYyN2Y4ZjMiLCJpYXQiOjE2ODc5NjE0MTcsImV4cCI6MTY4ODU2NjIxN30.W1qgUljymd7yeDT135cH0w-77AfnTafQYBNzr_gIO4c";
 
