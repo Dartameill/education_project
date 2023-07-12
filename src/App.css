@@ -1,0 +1,136 @@
+.dynamic-table {
+  border-collapse: collapse;
+  width: 100%;
+  flex-direction: column;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.dynamic-table td {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.dynamic-table button {
+  margin-left: 8px;
+  padding: 10px;
+}
+
+
+
+.columnNamesInTable{
+padding: 8px;
+border: 1px solid #ddd;
+background-color: #f2f2f2;
+position:relative;
+height: 40px;
+margin: 15px;
+width: 150px;
+}
+
+
+.remove-column {
+  position: absolute;
+    top: 3px;
+    right: 3px;
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    color: red;
+}
+
+.remove-value
+ {
+    cursor: pointer;
+      position: absolute;
+      transform: translate(0, -90%);
+      font-size: 12px;
+      color: red;
+      padding: 2px;
+}
+
+.remove-empty-rows{
+padding: 8px;
+margin: 15px;
+}
+
+.add-column{
+margin: 15px;
+    color: #3138bb;
+    padding: 8px;
+    width: 150px;
+    border-radius: 3px;
+        border-width: 1px;
+        border-color: blue;
+}
+
+
+.add-column:hover {
+  background-color: #C7FFE2 Mint/Mint 100;
+  color: #000000;
+}
+
+.add-record{
+color:#ffffff;
+border: 1px solid;
+width: 150px;
+margin: 15px;
+height: 35px;
+padding: 8px;
+    border-radius: 3px;
+    background-color: #3138BB;
+}
+
+input {
+width: 160px;
+
+@media(max-width: 1500px) {
+    width: 120px;
+}
+}
+
+.popup {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 300px;
+  max-height: 600px;
+  overflow-y: auto;
+  z-index: 1;
+}
+
+.popup-content {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.popup-content li {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.popup-content li:hover {
+  background-color: #f0f0f0;
+}
+
+.disabled {
+color:#B2B2B2;
+}
+
+.sendToEndpoint {
+margin: 10px;
+color:green;
+padding: 8px;
+}
+
